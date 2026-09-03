@@ -1,3 +1,4 @@
+import Caixa from "./Caixa"
 
 function Header() {
     return (
@@ -8,6 +9,9 @@ function Header() {
                 <a href="#Produto">Produto</a>
                 <a href="#Contato">Contato</a>
             </nav>
+            <Caixa>
+                <p>Olá teste</p>
+            </Caixa>
         </header>
     )
 }

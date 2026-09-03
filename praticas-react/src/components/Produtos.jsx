@@ -9,7 +9,6 @@ function Produtos() {
                 preco='15,99'
                 descricao='teste descrição prod 1'
             />
-
             <Produto
                 nome='Cappuccino'
                 preco='18,99'
@@ -18,6 +17,11 @@ function Produtos() {
                 nome='Chocolate'
                 preco='25,99'
                 descricao='teste descrição prod 3' />
+            <Produto
+                nome='Pão'
+                preco='45,99'
+                descricao='teste descrição prod 4' />
+        
         </section>
     );
 }

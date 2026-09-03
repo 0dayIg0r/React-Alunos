@@ -1,3 +1,5 @@
+import Caixa from "./Caixa";
+
 function Banner() {
     return (
         <section className="banner">
@@ -6,6 +8,10 @@ function Banner() {
             <span>
                 Escolha seu favorito e aproveite.
             </span>
+
+            <Caixa>
+                Caixa dentrto do banner
+            </Caixa>
         </section>
     );
 }

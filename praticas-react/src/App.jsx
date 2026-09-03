@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Produtos from "./components/Produtos"
 import './App.css'
+import Destaques from "./components/Destaques"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Banner />
       <Produtos />
+      <Destaques/>
       <Footer />
     </>
   )
