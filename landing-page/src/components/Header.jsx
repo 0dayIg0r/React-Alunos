@@ -1,8 +1,8 @@
 
 function Header() {
     return (
-        <header>
-            <h2 className="header">CodeSTART</h2>
+        <header className="header">
+            <h2 >CodeSTART</h2>
             <nav>
                 <a href="">Início</a>
                 <a href="">Benefícios</a>

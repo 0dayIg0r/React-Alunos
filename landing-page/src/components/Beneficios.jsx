@@ -4,6 +4,7 @@ import Card from "./Card"
 function Beneficios() {
     return (
         <section className="beneficios" id="beneficios">
+                <h2>Por que estudar conosco?</h2>
             <div className="cards">
                 <Card titulo='Aulas práticas'>
                     <p>Aprender construindo pequenos projetos</p>
@@ -16,6 +17,7 @@ function Beneficios() {
                 <Card titulo='No seu ritmo'>
                     <p>Pratique o conteúdo apresentado durante a aula.</p>
                 </Card>
+
             </div>
         </section>
     )
