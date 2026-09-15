@@ -127,9 +127,56 @@ form button {
     color: white;
 }
 
+
 .footer {
     padding: 25px;
     text-align: center;
     background-color: #111827;
     color: white;
 }
+
+/* DEPOIMENTOS */
+
+.depoimentos {
+    padding: 60px 8%;
+    background: #f5f5f5;
+}
+
+.depoimentos h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.depoimentos strong {
+    color: #f59e0b;
+}
+
+/* ENTRE EM CONTATO */
+
+.entre-contato {
+  padding: 60px 8%;
+  background: white;
+}
+
+.entre-contato h2 {
+  text-align: center;
+}
+
+.entre-contato form {
+  max-width: 500px;
+  margin: 30px auto 0;
+}
+
+.entre-contato button {
+  width: 100%;
+  padding: 12px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #2563eb;
+  color: white;
+
+  cursor: pointer;
+}
+

@@ -4,7 +4,8 @@ import Formulario from "./components/Formulario"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import './App.css'
-import Card from "./components/Card"
+import Depoimentos from "./components/Depoimentos"
+import Contato from "./components/Contato"
 
 function App() {
 
@@ -18,10 +19,11 @@ function App() {
         descricao='Um curso para quem quercomeçar na tecnologia.'
         botao='Quero começar'
       />
-      <Beneficios/>
+      <Beneficios />
 
       <Formulario />
-
+      <Depoimentos />
+      <Contato />
       <Footer />
     </>
   )
