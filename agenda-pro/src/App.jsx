@@ -18,6 +18,9 @@ function App() {
     pago: true
   };
 
+  // é um objeto com spread operator que pega tudo do objeto atendimentoBase 
+  // e coloca dentro da variável atendimentoCompleto, 
+  // e essa variável adiciona o atributo observação
   const atendimentoCompleto = {
     ...atendimentoBase,
     observacao: "O link será enviado alguns minutos antes do horário."
@@ -77,6 +80,7 @@ function App() {
         <Resumo resumo={resumo} />
 
         <div className="painel-principal">
+          {/* aqui está passando o objeto como props */}
           <Atendimento atendimento={atendimentoCompleto} />
 
           <Profissional

@@ -1,4 +1,6 @@
+// é uma função que recebe uma props chamada atendimento
 function Atendimento({ atendimento }) {
+  // é uma const que diz que a prop atendimento é um objeto 
   const {
     cliente,
     servico,
@@ -10,6 +12,7 @@ function Atendimento({ atendimento }) {
     observacao
   } = atendimento;
 
+  // é uma função que vai verificar se está pago ou não pago, se estiver pago, reretorna a mensagem de pagamento
   function verificarPagamento(pago) {
     if (pago) {
       return "Pagamento confirmado";
