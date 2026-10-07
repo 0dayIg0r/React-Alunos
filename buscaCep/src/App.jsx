@@ -1,6 +1,7 @@
 import { useState } from "react";
 import BuscaCep from "./components/BuscaCep";
 import Resultado from "./components/Resultado";
+import Carrinho from "./components/Carrinho";
 
 function App() {
   const [cep, setCep] = useState("");
@@ -41,6 +42,7 @@ function App() {
       <BuscaCep cep={cep} setCep={setCep} buscarCep={buscarCep} />
       <Resultado endereco={endereco} />
       {erro && <p>{erro}</p>}
+      <Carrinho/>
     </div>
   );
 }
