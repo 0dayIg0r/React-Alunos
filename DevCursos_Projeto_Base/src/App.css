@@ -1,0 +1,30 @@
+.container {
+  width: min(900px, 90%);
+  margin: 40px auto;
+}
+
+h1 {
+  margin-bottom: 8px;
+  color: #ff7a00;
+}
+
+.subtitulo {
+  margin-top: 0;
+  color: #b7b7b7;
+}
+
+.orientacoes {
+  margin-top: 32px;
+  padding: 24px;
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  border-radius: 14px;
+}
+
+.orientacoes h2 {
+  margin-top: 0;
+}
+
+.orientacoes li {
+  margin-bottom: 8px;
+}
